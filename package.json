@@ -1,0 +1,22 @@
+{
+  "name": "js-sleepms",
+  "version": "1.0.0",
+  "description": "sleep millisecond",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bill0119/js-sleepMS.git"
+  },
+  "keywords": [
+    "sleep"
+  ],
+  "author": "bill0119",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bill0119/js-sleepMS/issues"
+  },
+  "homepage": "https://github.com/bill0119/js-sleepMS#readme"
+}
