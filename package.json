@@ -1,6 +1,6 @@
 {
   "name": "js-sleepms",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "sleep millisecond",
   "main": "index.js",
   "scripts": {
