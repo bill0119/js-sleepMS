@@ -4,7 +4,7 @@
   "description": "sleep millisecond",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha || true"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/bill0119/js-sleepMS/issues"
   },
-  "homepage": "https://github.com/bill0119/js-sleepMS#readme"
+  "homepage": "https://github.com/bill0119/js-sleepMS#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  }
 }
