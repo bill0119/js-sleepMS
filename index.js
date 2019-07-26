@@ -5,9 +5,11 @@ let Sleep = (ms) => {
 }
 
 let SleepMS = async(ms) => {
-	console.log("sleep ", ms, " millisecond");
-	await Sleep(ms);
-	console.log("sleep ", ms, " millisecond done");
+	if (ms > 0) {
+		console.log("sleep ", ms, " millisecond");
+		await Sleep(ms);
+		console.log("sleep ", ms, " millisecond done");
+	}
 }
 
 exports.SleepMS = SleepMS;
