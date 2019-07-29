@@ -6,9 +6,10 @@ let Sleep = (ms) => {
 
 let SleepMS = async(ms) => {
 	if (ms > 0) {
-		console.log("sleep ", ms, " millisecond");
+		let s = new Date().getTime();
 		await Sleep(ms);
-		console.log("sleep ", ms, " millisecond done");
+		let e = new Date().getTime();
+		console.log("sleep ", e - s, " millisecond done");
 	}
 }
 
